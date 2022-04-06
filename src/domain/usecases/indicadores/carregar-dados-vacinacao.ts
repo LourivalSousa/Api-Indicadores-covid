@@ -1,3 +1,4 @@
+import { VacinacaoModel } from "@/domain/models/indicadores"
 
 
 export interface CarregarDadosVacinacao {
@@ -5,5 +6,5 @@ export interface CarregarDadosVacinacao {
 }
 
 export namespace CarregarDadosVacinacao {
-  export type Resultado = []
+  export type Resultado = VacinacaoModel
 }

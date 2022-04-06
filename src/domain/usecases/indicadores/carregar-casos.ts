@@ -1,4 +1,4 @@
-import { CasosModel } from "src/domain/models/indicadores";
+import { CasosModel } from "@/domain/models/indicadores";
 
 export interface CarregarCasos{
   carregarCasos():Promise<CarregarCasos.Resultado>

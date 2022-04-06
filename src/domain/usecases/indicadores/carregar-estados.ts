@@ -1,9 +1,9 @@
-import { EstadoModel } from "src/domain/models/indicadores";
+import { EstadoModel } from "@/domain/models/indicadores";
 
 export interface CarregarEstados {
   carregarEstados(): Promise<CarregarEstados.Resultado>
 }
 
 export namespace CarregarEstados {
-  export type Resultado = EstadoModel[]
+  export type Resultado = Array<EstadoModel>
 }
