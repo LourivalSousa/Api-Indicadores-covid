@@ -7,7 +7,7 @@ async function bootstrap() {
 
   const options = new DocumentBuilder()
     .setTitle('Documentação Api')
-    .setDescription('Documentação da api de catálogo')
+    .setDescription('Documentação da api indicadores covid')
     .setVersion('1.0.0')
     .build()
 
