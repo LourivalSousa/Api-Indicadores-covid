@@ -1,5 +1,4 @@
 import { CarregarCasosRepository } from "@/data/protocols/api";
-import { CasosModel } from "@/domain/models/indicadores";
 
 
 export class ApiCarregarCasos implements CarregarCasosRepository {
