@@ -1,6 +1,6 @@
 import { ResultadoModel } from "@/domain/models/indicadores";
 import { CarregarCasos, CarregarDadosVacinacao, CarregarEstados } from "@/domain/usecases/indicadores";
-import { ok, serverError } from "@/presentation/helpers";
+import { serverError, ok } from '../../helpers/http-helper';
 import { Controller, HttpResponse } from "@/presentation/protocols";
 
 export class CarregarIndicadoresController implements Controller {
