@@ -1,4 +1,4 @@
-export function formatarDataDiaMesAno(data: string): string {
+export const formatarDataDiaMesAno = (data: string): string => {
   const dataSeparada = data.split(' ')
   const dataAnoMesDia = dataSeparada[0].split('-')
 

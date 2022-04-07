@@ -1,1 +1,1 @@
-export * from './formatarData'
+export * from './formatar-data'
